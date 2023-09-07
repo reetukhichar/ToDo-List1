@@ -37,7 +37,7 @@ const ToDo = () => {
             <div className='bg-green-200 md:h-[60px] md:w-[350px] mt-7 flex items-center justify-center md:place-self-start md:ml-5 md:mb-5 px-2'>
               <h1 className='text-xl md:text-4xl font-bold'>Here is Your List :{')'}</h1>
             </div>
-            {listData !== [] && listData.map((data, i) => {
+            {listData != [] && listData.map((data, i) => {
               return ( 
               <>
                 <div key={i} className='flex flex-col md:flex-row md:items-center md:gap-2 gap-[1px] place-self-start md:ml-5 my-[6px]'>                  
